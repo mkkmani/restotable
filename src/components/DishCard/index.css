@@ -1,0 +1,89 @@
+.food-card {
+  width: 95vw;
+  padding: 20px;
+  border: 1px solid lightblue;
+  margin-bottom: 5px;
+}
+
+.non-veg-icon {
+  color: brown;
+  height: 20px;
+  width: 20px;
+}
+
+.veg-icon {
+  color: green;
+  height: 20px;
+  width: 20px;
+}
+
+.icon-div {
+  padding-top: 34px;
+}
+
+.dish-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dish-name {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.dish-desc {
+  color: #9d9fa3;
+}
+
+.na {
+  color: #484cb5;
+}
+
+.calories {
+  align-self: center;
+  color: #e67f25;
+  font-weight: bold;
+}
+
+.dish-img {
+  height: 100px;
+  width: 100px;
+  /* margin-left: 130px; */
+}
+
+.qty-div {
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  background-color: green;
+  width: auto;
+  color: white;
+  border-radius: 20px;
+}
+
+.qty-btn {
+  background: none;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.type-det {
+  display: flex;
+  flex-direction: row;
+}
+
+.cal-img {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 567px) {
+  .dish-name {
+    font-size: 20px;
+  }
+}

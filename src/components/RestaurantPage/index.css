@@ -1,0 +1,38 @@
+.btn-ul-list {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  list-style-type: none;
+  align-items: center;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.loader-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.page-div {
+  width: 95%;
+  min-height: 100vh;
+}
+
+.failure-div {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.retry-btn {
+  background-color: #4053b3;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

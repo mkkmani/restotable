@@ -1,0 +1,38 @@
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+}
+
+.nav-bar {
+  margin: 10px;
+}
+
+.nav-cart-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: normal;
+  margin: 3px;
+}
+
+.count {
+}
+
+.active {
+  color: #f55c4e;
+  border-bottom: 2px solid #f55c4e;
+}
+
+.dishes-ul {
+  list-style-type: none;
+}
